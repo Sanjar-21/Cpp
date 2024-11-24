@@ -1,4 +1,5 @@
 #include <iostream>
+// if shart aperati cpp
 
 using namespace std;
 
