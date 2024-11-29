@@ -6,11 +6,11 @@ int fig(int n) {
   if (n <= 2)
     return 1;
   else
-    return n + fig(n - 1);
+    return fig(n - 1) + fig(n - 2);
 }
 
 int main(void) {
   int n = 5;
-  cout << fig(n) << endl;
+  cout << fig(6) << endl;
   return 0;
 }
