@@ -3,22 +3,18 @@
 using namespace std;
 // public // private // protected
 // public
-// Cpp 
+// Cpp
 class Sanjar {
-    public:
-        void hello() {
-            cout << "hello world" << endl;
-        }
-        void world(){
-            cout << "salom dunyo" << endl;
-        }
+public:
+  void hello() { cout << "hello world" << endl; }
+  void world() { cout << "salom dunyo" << endl; }
 };
 
 int main(void) {
-    Sanjar jon ;
+  Sanjar jon;
 
-    jon.hello();
-    jon.world();
+  jon.hello();
+  jon.world();
 
-    return 0;
+  return (0);
 }

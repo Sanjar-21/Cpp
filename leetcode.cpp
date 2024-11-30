@@ -11,9 +11,9 @@ public:
     char num = arr[0];
     for (int i = 0; i < size; i++) {
       // cout << arr[i] << endl;
-      if(arr[i] == num) {
+      if (arr[i] == num) {
         jam++;
-      } 
+      }
     }
     cout << jam << "a" << endl;
     return n;
