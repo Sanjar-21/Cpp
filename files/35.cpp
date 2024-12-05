@@ -4,8 +4,12 @@
 
 using namespace std;
 
-Person::Person(){}
-Person::~Person(){}
+Person::Person(){
+    cout << "constructor" << endl;
+}
+Person::~Person(){
+    cout << "destructor ishladi" << endl;
+}
 
 void Person::setName(string str) {
     name = str;
