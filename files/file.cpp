@@ -19,9 +19,9 @@ string filebilanishlash::getName() {
     return name;
 }
 
-int main(void) {
-    filebilanishlash d;
-    d.setName("School 21");
-    cout << d.getName() << endl;
-    return 0;
-}
+// int main(void) {
+//     filebilanishlash d;
+//     d.setName("School 21");
+//     cout << d.getName() << endl;
+//     return 0;
+// }
